@@ -1,4 +1,4 @@
- Sistema de Gestão de Incidentes — SecureOps Pro
+ **Sistema de Gestão de Incidentes — SecureOps Pro
 
 ---
 
@@ -35,26 +35,22 @@ O incidente deve passar por estados de controle definidos (Detectado, Em Anális
 
 A implementação foi projetada para o ambiente **MySQL 8.0+**, atendendo aos seguintes critérios:
 
-a) **Codificação:**  
+ **Codificação:**  
 Uso de `utf8mb4` e `utf8mb4_unicode_ci` para compatibilidade total com dados sensíveis e caracteres especiais.
 
-b) **Integridade:**  
+ **Integridade:**  
 Implementação rigorosa de chaves primárias (PK) e estrangeiras (FK) com restrições de integridade referencial.
 
-c) **Automação no Banco:**  
+ **Automação no Banco:**  
 Uso de **Triggers** para registro automático de histórico e controle inteligente de fechamento de incidentes.
 
-d) **Tipagem Profissional:**  
+ **Tipagem Profissional:**  
 - `DATETIME` para controle temporal  
 - `DECIMAL(15,2)` para impacto financeiro  
 - índices compostos para otimização de consultas operacionais  
 
-e) **Segurança por Design:**  
+ **Segurança por Design:**  
 Aplicação do princípio do menor privilégio e separação entre dados operacionais e trilhas de auditoria.
-
-Desenvolvimento de um **Sistema de Gestão de Incidentes de Segurança da Informação (SecureOps Pro)**, com foco em **automação de auditoria**, **rastreabilidade total** e **conformidade (Compliance)**.
-
-Este projeto apresenta uma modelagem de banco de dados relacional de nível sênior, incluindo **Triggers** para controle de ciclo de vida e **RBAC** para controle de acesso.
 
 > **Peer Review Insight:** Este projeto foi estruturado para demonstrar maturidade técnica em **Engenharia de Dados** e **Segurança**, utilizando IA como revisora para identificar pontos cegos de auditoria e conformidade com a LGPD.
 
