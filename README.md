@@ -8,7 +8,8 @@ Este projeto apresenta uma modelagem de banco de dados relacional de nível sên
 > **Peer Review Insight:** Este projeto foi estruturado para demonstrar maturidade técnica em **Engenharia de Dados** e **Segurança**, utilizando IA como revisora para identificar pontos cegos de auditoria e conformidade com a LGPD.
 
 ---
-![0169116a-02f5-4f40-83f1-80d9cbedc2bd](https://github.com/user-attachments/assets/9cdffef6-c44d-4883-8c8c-01d661246e28)
+![0ad6e98a-cecd-499e-b032-d1dac914da38](https://github.com/user-attachments/assets/78879005-ddd3-4b0a-bfd4-9cea12b7ce32)
+
 
 
 ## ## Visão Geral do Projeto
@@ -67,7 +68,8 @@ A tabela `incidente` é o núcleo operacional. O ciclo de vida é controlado por
 * **Ambiente:** MySQL Workbench / brModelo
 * **Estratégia de Performance:** Índices compostos em tabelas de histórico.
   
-![b7ecee3a-b84c-4d80-b496-dc308434434c](https://github.com/user-attachments/assets/2b6e1e95-e639-48ac-8c13-aeadab24d7da)
+![Uploading 2675d96e-800e-44e7-9bbb-0e741edf811b.jpg…]()
+
 
 ---
 
