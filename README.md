@@ -1,5 +1,56 @@
+ Sistema de Gestão de Incidentes — SecureOps Pro
 
-# # SQL — CyberSecurity Database Design: SecureOps Pro
+---
+
+A **SecureWave Digital Services** é uma empresa fictícia de médio porte que atua com serviços digitais e infraestrutura em nuvem, lidando com dados sensíveis e ambientes regulados.
+
+Com a expansão da operação, o controle de incidentes de segurança da informação passou a apresentar falhas quando realizado por ferramentas genéricas e registros manuais, resultando em perda de rastreabilidade, dificuldade de auditoria e inconsistências no ciclo de vida dos incidentes.
+
+O objetivo deste projeto é desenvolver o **esquema de um banco de dados relacional (SecureOps Pro)** capaz de centralizar a gestão de incidentes, garantindo **auditoria automática**, **integridade do ciclo de vida** e **conformidade com princípios de governança e LGPD**.
+
+---
+
+## Requisitos de Negócio
+
+Para que o sistema seja funcional e auditável, ele deve atender às seguintes diretrizes:
+
+ **Gestão de Ativos**  
+Todo incidente deve estar obrigatoriamente vinculado a um ativo digital. Um ativo pode estar associado a múltiplos incidentes ao longo do tempo.
+
+ **Responsabilização Técnica**  
+Cada incidente deve possuir um analista responsável técnico, garantindo rastreabilidade de decisões e ações.
+
+ **Controle de Acesso (RBAC)**  
+O sistema deve suportar perfis de acesso distintos, permitindo que analistas atuem conforme suas atribuições e permissões.
+
+ **Auditoria e Histórico**  
+Toda alteração de status de um incidente deve ser registrada automaticamente, mantendo histórico imutável para fins de auditoria.
+
+ **Fluxo de Tratamento**  
+O incidente deve passar por estados de controle definidos (Detectado, Em Análise, Contido, Resolvido, Encerrado), sendo o encerramento realizado automaticamente quando um status final é atingido.
+
+---
+
+## Requisitos Técnicos
+
+A implementação foi projetada para o ambiente **MySQL 8.0+**, atendendo aos seguintes critérios:
+
+a) **Codificação:**  
+Uso de `utf8mb4` e `utf8mb4_unicode_ci` para compatibilidade total com dados sensíveis e caracteres especiais.
+
+b) **Integridade:**  
+Implementação rigorosa de chaves primárias (PK) e estrangeiras (FK) com restrições de integridade referencial.
+
+c) **Automação no Banco:**  
+Uso de **Triggers** para registro automático de histórico e controle inteligente de fechamento de incidentes.
+
+d) **Tipagem Profissional:**  
+- `DATETIME` para controle temporal  
+- `DECIMAL(15,2)` para impacto financeiro  
+- índices compostos para otimização de consultas operacionais  
+
+e) **Segurança por Design:**  
+Aplicação do princípio do menor privilégio e separação entre dados operacionais e trilhas de auditoria.
 
 Desenvolvimento de um **Sistema de Gestão de Incidentes de Segurança da Informação (SecureOps Pro)**, com foco em **automação de auditoria**, **rastreabilidade total** e **conformidade (Compliance)**.
 
