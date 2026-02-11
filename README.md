@@ -56,7 +56,8 @@ Aplicação do princípio do menor privilégio e separação entre dados operaci
 > **Peer Review Insight:** Este projeto foi estruturado para demonstrar maturidade técnica em **Engenharia de Dados** e **Segurança**, utilizando IA como revisora para identificar pontos cegos de auditoria e conformidade com a LGPD.
 
 ---
-![0ad6e98a-cecd-499e-b032-d1dac914da38](https://github.com/user-attachments/assets/78879005-ddd3-4b0a-bfd4-9cea12b7ce32)
+<img width="1492" height="865" alt="image" src="https://github.com/user-attachments/assets/90574f81-343b-42c6-9daf-2c228e9deb20" />
+
 
 
 
