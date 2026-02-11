@@ -115,7 +115,7 @@ A tabela `incidente` é o núcleo operacional. O ciclo de vida é controlado por
 * **Ambiente:** MySQL Workbench / brModelo
 * **Estratégia de Performance:** Índices compostos em tabelas de histórico.
   
-![Uploading 2675d96e-800e-44e7-9bbb-0e741edf811b.jpg…]()
+![Uploading 53821ee3-439f-4014-a070-40c7982ca32d.jpg…]()
 
 
 ---
