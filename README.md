@@ -1,4 +1,5 @@
  **Sistema de Gestão de Incidentes — SecureOps Pro
+ ---
 
 ---
 
@@ -79,6 +80,8 @@ Desenvolver o **esquema de um banco de dados relacional sênior** capaz de:
 * Garantir a integridade do ciclo de vida (abertura/fechamento automático).
 * Implementar segurança em nível de banco de dados (Princípio do Menor Privilégio).
 * Suportar auditorias de conformidade com registros de leitura e escrita.
+  
+![82f6b90a-c820-4486-b743-281e7ed67343](https://github.com/user-attachments/assets/1dedcfb9-bed1-464c-9bc7-5e023acf2097)
 
 ---
 
@@ -114,9 +117,7 @@ A tabela `incidente` é o núcleo operacional. O ciclo de vida é controlado por
 * **Collation:** `utf8mb4_unicode_ci`
 * **Ambiente:** MySQL Workbench / brModelo
 * **Estratégia de Performance:** Índices compostos em tabelas de histórico.
-  ---
-  
-![Uploading 53821ee3-439f-4014-a070-40c7982ca32d.jpg…]()
+
 
 
 ---
