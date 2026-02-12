@@ -144,6 +144,7 @@ CREATE TABLE IF NOT EXISTS historico_status (
 Esta consulta é fundamental para auditorias, pois reconstrói a cronologia de mudanças de um ticket:
 
 ```sql
+
 SELECT 
     h.data_alteracao AS 'Data da Mudança', 
     i.ticket_ref AS 'Chamado',
@@ -183,6 +184,7 @@ COLLATE utf8mb4_unicode_ci;
 USE secureops_pro;
 
 -- Tabelas de Domínio
+```sql
 CREATE TABLE status_incidente (
     id_status INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(50) NOT NULL UNIQUE,
@@ -295,10 +297,7 @@ BEGIN
     END IF;
 END //
 DELIMITER ;
-```
----
 
-**O repositório está pronto.** Você gostaria que eu gerasse agora uma **massa de dados (INSERTs)** completa para todas as tabelas, permitindo que você popule o banco e valide esses relatórios imediatamente?
 
 ```
 ![WhatsApp Image 2026-02-09 at 14 50 52](https://github.com/user-attachments/assets/f2138f0c-d4e1-465c-915d-c46e0f4e8b82)
