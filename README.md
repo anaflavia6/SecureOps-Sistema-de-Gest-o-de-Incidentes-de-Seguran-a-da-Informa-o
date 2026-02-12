@@ -133,7 +133,7 @@ CREATE TABLE IF NOT EXISTS historico_status (
     FOREIGN KEY (id_analista) REFERENCES analista(id_analista)
 ) ENGINE=InnoDB;
 
-```
+``` 
 
 ---
 
@@ -175,6 +175,7 @@ Abaixo encontra-se o código SQL integral para criação do banco de dados, tabe
 > **Peer Review Insight**: Este projeto foi estruturado para demonstrar maturidade técnica em Engenharia de Dados e Segurança Cibernética, utilizando o banco de dados como uma camada ativa de conformidade regulatória.
 >
 > -- Criação do Banco de Dados
+> ```sql
 CREATE DATABASE IF NOT EXISTS secureops_pro
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_unicode_ci;
@@ -294,7 +295,7 @@ BEGIN
     END IF;
 END //
 DELIMITER ;
-
+```
 ---
 
 **O repositório está pronto.** Você gostaria que eu gerasse agora uma **massa de dados (INSERTs)** completa para todas as tabelas, permitindo que você popule o banco e valide esses relatórios imediatamente?
