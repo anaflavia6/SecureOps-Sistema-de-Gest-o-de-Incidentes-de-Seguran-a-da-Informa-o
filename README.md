@@ -175,14 +175,6 @@ Abaixo encontra-se o código SQL integral para criação do banco de dados, tabe
 
 > **Peer Review Insight**: Este projeto foi estruturado para demonstrar maturidade técnica em Engenharia de Dados e Segurança Cibernética, utilizando o banco de dados como uma camada ativa de conformidade regulatória.
 >
-> -- Criação do Banco de Dados
-> ```sql
-CREATE DATABASE IF NOT EXISTS secureops_pro
-CHARACTER SET utf8mb4
-COLLATE utf8mb4_unicode_ci;
-
-USE secureops_pro;
-
 -- Tabelas de Domínio
 ```sql
 CREATE TABLE status_incidente (
