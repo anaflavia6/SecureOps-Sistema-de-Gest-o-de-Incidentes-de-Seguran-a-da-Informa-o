@@ -305,7 +305,15 @@ DELIMITER ;
 
 ---
 
+
 ## ## Disclaimer & LGPD
 
 > **Aviso Importante:** Todos os dados gerados para teste neste repositório são fictícios. O sistema foi projetado seguindo princípios de **Privacy by Design**, garantindo que toda visualização de dados possa ser auditada para conformidade com a LGPD e GDPR.
 
+---
+
+
+## 📂 Estrutura do Repositório
+
+* [**Documentação Estratégica**](docs/analise_estratégica.md): Detalhamento da metodologia analítica e GRC.
+* [**Motor de Queries SQL**](sql/queries_analiticas.sql): Scripts de tendência, volatilidade e a View de Risco Ponderado.
